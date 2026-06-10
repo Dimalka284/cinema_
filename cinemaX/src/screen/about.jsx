@@ -49,12 +49,12 @@ function About() {
       {/* Data source */}
       <p className="text-xs uppercase tracking-widest text-white/30 mb-3">Data source</p>
       
-       <a href="https://www.omdbapi.com"
+       <a href="https://www.themoviedb.org/"
         target="_blank"
         className="inline-flex items-center gap-2 text-xs text-white/50 bg-white/4 border border-white/8 px-4 py-2.5 rounded-lg hover:text-white transition-colors mb-10"
       >
         <Database size={14} />
-        Movie data powered by OMDb API
+        Movie data powered by TMDB API
         <ExternalLink size={12} />
       </a>
 

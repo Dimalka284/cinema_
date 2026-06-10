@@ -1,4 +1,5 @@
-import { Link } from "react-router-dom";
+import { Link } from "react-router-dom"
+import Categorydrop from "../components/Categorydrop"
 
 function Navbar() {
   return (
@@ -9,10 +10,7 @@ function Navbar() {
           Home
           <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-[#e50914] transition-all duration-300 group-hover:w-full"></span>
         </Link>
-        <Link to="#" className="text-lg font-medium text-white hover:text-[#e50914] transition-colors relative group">
-          Categories
-          <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-[#e50914] transition-all duration-300 group-hover:w-full"></span>
-        </Link>
+        <Categorydrop />
         <Link to="/community" className="text-lg font-medium text-white hover:text-[#e50914] transition-colors relative group">
           Community
           <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-[#e50914] transition-all duration-300 group-hover:w-full"></span>

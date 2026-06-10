@@ -6,9 +6,8 @@ import Home from "./screen/home"
 import About from "./screen/about"
 import Community from './screen/community'
 import MoviesDetails from './screen/moviedetails'
+import Category from './screen/category'
 import AIChatBot from './components/AIChatBot'
-
-
 
 
 function App() {
@@ -23,11 +22,11 @@ function App() {
         <Route path="/movies/:title" element={<MoviesDetails/>} />
         <Route path="/about_us" element={<About />} />
         <Route path="/community" element={<Community />} />
+        <Route path="/category/:genre" element={<Category />} />
       </Routes>
 
       <Footer />
-
-      {/* Global AI Chat Bot — appears on every page */}
+    
       <AIChatBot />
     </>
   )
