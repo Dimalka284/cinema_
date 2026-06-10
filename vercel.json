@@ -20,7 +20,7 @@
     },
     {
       "source": "/(.*)",
-      "destination": "/cinemaX/dist/$1"
+      "destination": "/index.html"
     }
   ]
 }
