@@ -6,7 +6,7 @@ A full-stack movie discovery platform built with **React + Vite** on the fronten
 
 ## ✨ Features
 
-- 🏠 **Home Page** — Netflix-style horizontal movie rows powered by the OMDB API, organized by genre and franchise (Action, Sci-Fi, Horror, Animated, Marvel, DC, and more)
+- 🏠 **Home Page** — Netflix-style horizontal movie rows powered by the OMDB API & TMDB API, organized by genre and franchise (Action, Sci-Fi, Horror, Animated, Marvel, DC, and more)
 - 🎥 **Movie Details** — Dedicated page for each movie with full metadata
 - 💬 **CineBot (AI Chat)** — Floating AI assistant powered by Google Gemini that answers movie-related questions, gives recommendations, and shares trivia
 - 👥 **Community** — Community screen for movie discussions
@@ -26,6 +26,7 @@ A full-stack movie discovery platform built with **React + Vite** on the fronten
 | Tailwind CSS | Styling |
 | Lucide React | Icons |
 | OMDB API | Movie data (posters, ratings, etc.) |
+| TMDB API | Movie data (posters, ratings, etc.) |
 
 ### Backend
 | Technology | Purpose |
@@ -75,6 +76,7 @@ cinema_/
 - Python 3.10+
 - MongoDB (running locally on port 27017)
 - [OMDB API Key](https://www.omdbapi.com/apikey.aspx)
+- [TMDB API Key](https://www.themoviedb.org/documentation/api)
 - [Google Gemini API Key](https://aistudio.google.com/app/apikey)
 
 ---
