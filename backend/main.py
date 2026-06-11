@@ -7,10 +7,14 @@ import json
 import httpx
 from dotenv import load_dotenv
 from google import genai
+from mangum import Mangum
 
 load_dotenv()
 
 app = FastAPI()
+
+# ── Vercel serverless handler ──
+handler = Mangum(app)
 
 app.add_middleware(
     CORSMiddleware,
