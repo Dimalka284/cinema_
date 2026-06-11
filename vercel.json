@@ -6,7 +6,7 @@
       "use": "@vercel/python"
     },
     {
-      "src": "cinemaX/package.json",
+      "src": "package.json",
       "use": "@vercel/static-build",
       "config": {
         "distDir": "cinemaX/dist"
@@ -23,7 +23,7 @@
     },
     {
       "src": "/(.*)",
-      "dest": "/cinemaX/dist/index.html"
+      "dest": "/index.html"
     }
   ]
 }
