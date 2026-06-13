@@ -176,11 +176,10 @@ CineBot is a floating AI movie assistant available on every page. It is powered 
 
 ---
 
-## 📸 Screenshots
+## 🌐 Hosted links
+https://cinema-x-284.vercel.app/
 
-> _Add screenshots of the app here_
 
----
 
 ## 📄 License
 
