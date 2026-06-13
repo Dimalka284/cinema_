@@ -7,7 +7,7 @@ function Hero() {
 
   // Fetch movies from FastAPI
   useEffect(() => {
-    fetch("/api/movies")
+    fetch("https://cinemax-backend-284.fly.dev/api/movies")
       .then((res) => res.json())
       .then((data) => setMovies(data))
       .catch((err) => console.log(err));

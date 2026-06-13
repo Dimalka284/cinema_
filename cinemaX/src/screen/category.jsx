@@ -27,7 +27,7 @@ function Category() {
     useEffect(() => {
         setLoading(true);
         setMovies([]);
-        fetch(`http://localhost:8000/api/category/${genre}?page=${page}`)
+        fetch(`https://cinemax-backend-284.fly.dev/api/category/${genre}?page=${page}`)
             .then(res => res.json())
             .then(data => {
                 setMovies(data.movies || []);
