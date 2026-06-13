@@ -7,7 +7,7 @@ function Home() {
       <Hero />
 
       {/* Movie Rows using OMDB API */}
-      <div className="relative z-20 flex flex-col gap-12 mt-16 px-4">
+      <div className="relative z-20 flex flex-col gap-8 md:gap-12 -mt-16 md:-mt-24 px-0 md:px-0">
 
         {/* Comedy & Animation */}
         <MovieRow title="Feel Good Movies" searchTerm="cars" />
