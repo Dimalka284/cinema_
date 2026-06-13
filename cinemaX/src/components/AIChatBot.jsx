@@ -127,7 +127,7 @@ export default function AIChatBot({ movieTitle = null }) {
       <button
         id="cinebot-toggle"
         onClick={() => setOpen((o) => !o)}
-        className="fixed bottom-8 right-8 z-[999] w-16 h-16 rounded-full flex items-center justify-center shadow-2xl transition-all duration-300 hover:scale-110 active:scale-95"
+        className="fixed bottom-4 right-4 sm:bottom-8 sm:right-8 z-[999] w-14 h-14 sm:w-16 sm:h-16 rounded-full flex items-center justify-center shadow-2xl transition-all duration-300 hover:scale-110 active:scale-95"
         style={{
           background: "linear-gradient(135deg, #e50914 0%, #ff4d4d 100%)",
           boxShadow: "0 8px 32px rgba(229,9,20,0.5)",
@@ -149,10 +149,8 @@ export default function AIChatBot({ movieTitle = null }) {
       {/* ── Chat panel ── */}
       <div
         id="cinebot-panel"
-        className="fixed bottom-28 right-8 z-[998] flex flex-col transition-all duration-300 origin-bottom-right"
+        className="fixed bottom-20 right-4 sm:bottom-28 sm:right-8 z-[998] flex flex-col transition-all duration-300 origin-bottom-right w-[calc(100vw-32px)] sm:w-[380px] h-[calc(100dvh-100px)] sm:h-[560px] max-h-[800px]"
         style={{
-          width: "380px",
-          height: "560px",
           opacity: open ? 1 : 0,
           transform: open ? "scale(1)" : "scale(0.8)",
           pointerEvents: open ? "auto" : "none",
